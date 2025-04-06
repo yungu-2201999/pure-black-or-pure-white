@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>color</title>
+    <style>
+        .title, white-title {
+            margin-top: 50px
+        }
+
+        .white-title {
+            color: white;
+        }
+
+        .black-container, .white-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            gap: 10px;
+        }
+
+        .item {
+            flex: 1;
+            min-width: 20%;
+            height: 400px;
+            line-height: 100px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .white-container  .item{
+            color: #000
+        }
+    </style>
+</head>
+<body>
+<h2 class="title">Pure Black</h2>
+<div class="black-container">
+    <div class="item" style="background:#060606">Sable<br>#060606 </div>
+    <div class="item" style="background:#171717">Charcoal Gray<br>#171717</div>
+    <div class="item" style="background:#0B1215">Obsidian<br>#0B1215</div>
+    <div class="item" style="background:#101720">Midnight Blue<br>#101720</div>
+    <div class="item" style="background:#0D1717">Dark Slate Gray<br>#0D1717</div>
+    <div class="item" style="background:#020D19">Rich Black<br>#020D19</div>
+    <div class="item" style="background:#011222">Deep Navy Blue<br>#011222</div>
+    <div class="item" style="background:#0C0C0C">Oil Black<br>#0C0C0C</div>
+</div>
+
+<div style="background: #000;width:100vw;">
+    <h2 class="white-title">Pure White</h2>
+    <div class="white-container">
+        <div class="item" style="background:#FFFFF0">Lvory<br>#FFFFF0</div>
+        <div class="item" style="background:#FCFCF7">Pearl <br>#FCFCF7</div>
+        <div class="item" style="background:#F2F8FC">Marble<br>#F2F8Fc</div>
+        <div class="item" style="background:#FAF9F6"> Off White<br>#FAF9F6</div>
+        <div class="item" style="background:#F4F1F8"> Lavender<br>#F4F1F8</div>
+        <div class="item" style="background:#F0F8FF"> Alice Blue<br>#F0F8FF</div>
+        <div class="item" style="background:#FBF5DF">Parchment<br>#FBF5DF </div>
+        <div class="item" style="background:#FDFDFD"> Egg White<br>#FDFDFD</div>
+    </div>
+</div>
+</body>
+</html>
